@@ -1,0 +1,30 @@
+
+Here's information about the product for your context:
+Product Context & Technical Brief: Elvity (www.elvity.ai)
+1. Product Overview & Category
+Product Name: Elvity (www.elvity.ai)
+Category: Enterprise Data Ingestion, Processing & Validation Platform.
+What it does: Elvity is an intelligent data ingestion platform designed to automate how B2B software companies receive, validate, and clean customer and partner data.
+Flexible Deployment Models: While Elvity provides a beautiful, embeddable customer-facing uploader widget for self-service correction, it can also be used entirely without the widget (headless via APIs, background file-processing pipelines, SFTP automated streams, or direct backend integration).
+2. Key Technology & Technical Capabilities
+Structured Data Processing: Automatically maps, validates, and ingests standard flat files like CSVs and Excel spreadsheets.
+Unstructured Data Processing (Core Differentiator): Automates the ingestion, parsing, and structured extraction of unstructured files such as PDFs, invoices, receipts, images, and shipping manifests.
+AI-Driven Mapping & Verification: Automatically aligns incoming data schemas with the host system's target format and runs real-time validations against custom business rules.
+The Correction Layer: When used with the widget, it empowers end-users to self-correct formatting errors on the screen. When used headlessly (without the widget), it flags, quarantines, or automatically resolves validation errors programmatically before the data enters the database.
+3. Core Personas & Stakeholders
+The platform is designed to align the goals of three critical business teams, with a heavy emphasis on post-sales implementation:
+Implementation Managers:
+Their Pain: Responsible for the "go-live" phase of new clients, which frequently stalls due to messy, legacy data migrations or custom formats from older systems.
+Elvity Value: Eliminates the manual "data janitor" workload. Instead of spent hours running VLOOKUPs, formatting columns, or manually translating client spreadsheets, they get clean, pre-validated data directly into the system.
+Customer Success Leads / CS Ops:
+Their Pain: Highly sensitive to "Time-to-Value" (TTV) and retention. Manual, high-touch data onboarding limits how many accounts a CSM can handle and increases early-stage churn risk.
+Elvity Value: Standardizes and accelerates the onboarding workflow, drastically reducing TTV and allowing CSMs to scale their capacity without increasing headcount.
+Engineering Leads (CTOs / VP of Engineering):
+Their Pain: Engineers waste valuable sprint cycles building and constantly maintaining fragile, homegrown CSV parsers and file validators that break on edge cases.
+Elvity Value: Offloads the entire ingestion infrastructure so developers can focus strictly on core product development.
+4. Target Market & Verticals
+Elvity targets B2B SaaS and enterprise platforms operating in highly transactional, data-heavy, or regulated environments, including:
+Fintech & Insurtech: (e.g., historical transactions, bank ledgers, portfolio records, KYC data).
+LogisticsTech & Supply Chain: (e.g., shipping manifests, trucklists, bills of lading, inventory files).
+RetailTech & E-commerce: (e.g., distributor pricebooks, massive supplier product catalogs, POS menu files).
+Healthtech & HR Tech: (e.g., employee census sheets, benefits documents, clinical trial sensor logs).
