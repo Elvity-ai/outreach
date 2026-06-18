@@ -5,13 +5,6 @@ source ./assume_role.sh
 
 # If the assume_role script succeeded, start Gemini CLI with the specified model
 if [ $? -eq 0 ]; then
-    # Check if nanobanana is installed by verifying its directory
-    if [ ! -d "$HOME/.gemini/extensions/nanobanana" ]; then
-        echo "❌ Error: The 'nanobanana' extension is not installed."
-        echo "Please install it by running: gemini extensions install nanobanana"
-        exit 1
-    fi
-
     # Parse optional session ID parameter (if first argument does not start with '-')
     SESSION_ARG=""
     if [ -n "$1" ] && [[ "$1" != -* ]]; then
