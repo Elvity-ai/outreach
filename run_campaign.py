@@ -180,9 +180,11 @@ def upload_assets_to_s3(session_dir, company_name, html_path):
     STRICT COMPLIANCE: If any S3 upload command fails, the exception is raised with the detailed AWS stderr,
     and program execution is aborted immediately.
     """
+    import uuid
     company_clean = company_name.lower().replace(" ", "_")
-    s3_dir = "s3://elvity-public-assets/viz"
-    public_url_base = f"https://www.elvity.ai/viz/{company_clean}_demo.html"
+    random_uuid = str(uuid.uuid4())
+    s3_dir = f"s3://elvity-public-assets/viz/{random_uuid}"
+    public_url_base = f"https://www.elvity.ai/viz/{random_uuid}/{company_clean}_demo.html"
     
     print(f"   Deploying assets to S3 bucket: {s3_dir}...")
     
